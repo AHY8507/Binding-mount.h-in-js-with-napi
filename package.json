@@ -1,0 +1,25 @@
+{
+  "name": "binding-mount.h-in-js-with-napi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mount.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHY8507/Binding-mount.h-in-js-with-napi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/AHY8507/Binding-mount.h-in-js-with-napi/issues"
+  },
+  "homepage": "https://github.com/AHY8507/Binding-mount.h-in-js-with-napi#readme",
+  "devDependencies": {
+    "node-gyp": "^11.5.0"
+  }
+}

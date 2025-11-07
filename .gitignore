@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+package-lock.json
+*.log
+
+# Build & Binaries
+CLibrary.so
+*.so
+*.dll
+*.dylib
+*.o
+*.obj
+*.out
+*.exe
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp
+tmp/
+temp/
+
+# test
+testing.js
+testing.c
+test.txt
