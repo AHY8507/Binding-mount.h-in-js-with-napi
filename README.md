@@ -20,7 +20,12 @@ Mount and unmount any filesystem on Linux — directly from Node.js using native
 npm install --save-dev node-gyp
 ```
 
-**Making build folder**
+**Making build folder:**
+```bash
+npm run build || npm run install
+npm run test
+```
+or
 ```bash
 npx node-gyp rebuild
 ```
