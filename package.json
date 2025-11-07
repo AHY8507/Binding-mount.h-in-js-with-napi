@@ -4,7 +4,8 @@
   "description": "",
   "main": "mount.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp rebuild",
+    "test": "node mount.js",
     "install": "node-gyp rebuild"
   },
   "repository": {

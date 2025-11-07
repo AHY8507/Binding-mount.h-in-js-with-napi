@@ -399,19 +399,19 @@
     "v8_trace_maps": 0,
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
-    "nodedir": "/root/.cache/node-gyp/18.19.1",
+    "nodedir": "/home/yousefi/.cache/node-gyp/18.19.1",
     "python": "/usr/bin/python3",
     "standalone_static_library": 1,
     "global_prefix": "/usr/local",
     "globalignorefile": "/etc/npmignore",
-    "init_module": "/root/.npm-init.js",
+    "init_module": "/home/yousefi/.npm-init.js",
     "globalconfig": "/etc/npmrc",
     "node_gyp": "/usr/share/nodejs/node-gyp/bin/node-gyp.js",
-    "cache": "/root/.npm",
+    "cache": "/home/yousefi/.npm",
     "prefix": "/usr/local",
     "metrics_registry": "https://registry.npmjs.org/",
     "local_prefix": "/mnt/c/Users/Yousefi/Desktop/Binding-mount.h-in-js-with-napi",
-    "userconfig": "/root/.npmrc",
+    "userconfig": "/home/yousefi/.npmrc",
     "user_agent": "npm/9.2.0 node/v18.19.1 linux x64 workspaces/false"
   }
 }

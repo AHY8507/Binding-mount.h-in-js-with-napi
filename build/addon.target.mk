@@ -39,13 +39,13 @@ CFLAGS_CC_Debug := \
 	-std=gnu++17
 
 INCS_Debug := \
-	-I/root/.cache/node-gyp/18.19.1/include/node \
-	-I/root/.cache/node-gyp/18.19.1/src \
-	-I/root/.cache/node-gyp/18.19.1/deps/openssl/config \
-	-I/root/.cache/node-gyp/18.19.1/deps/openssl/openssl/include \
-	-I/root/.cache/node-gyp/18.19.1/deps/uv/include \
-	-I/root/.cache/node-gyp/18.19.1/deps/zlib \
-	-I/root/.cache/node-gyp/18.19.1/deps/v8/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/include/node \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/src \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/openssl/config \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/openssl/openssl/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/uv/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/zlib \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/v8/include \
 	-I/mnt/c/Users/Yousefi/node_modules \
 	"-I$(srcdir)/\"/mnt/c/Users/Yousefi/node_modules/node-addon-api\""
 
@@ -83,13 +83,13 @@ CFLAGS_CC_Release := \
 	-std=gnu++17
 
 INCS_Release := \
-	-I/root/.cache/node-gyp/18.19.1/include/node \
-	-I/root/.cache/node-gyp/18.19.1/src \
-	-I/root/.cache/node-gyp/18.19.1/deps/openssl/config \
-	-I/root/.cache/node-gyp/18.19.1/deps/openssl/openssl/include \
-	-I/root/.cache/node-gyp/18.19.1/deps/uv/include \
-	-I/root/.cache/node-gyp/18.19.1/deps/zlib \
-	-I/root/.cache/node-gyp/18.19.1/deps/v8/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/include/node \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/src \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/openssl/config \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/openssl/openssl/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/uv/include \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/zlib \
+	-I/home/yousefi/.cache/node-gyp/18.19.1/deps/v8/include \
 	-I/mnt/c/Users/Yousefi/node_modules \
 	"-I$(srcdir)/\"/mnt/c/Users/Yousefi/node_modules/node-addon-api\""
 
