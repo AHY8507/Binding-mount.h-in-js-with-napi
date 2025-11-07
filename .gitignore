@@ -27,3 +27,6 @@ temp/
 testing.js
 testing.c
 test.txt
+
+# Build directory
+build/
