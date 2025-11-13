@@ -82,7 +82,7 @@ const EasyMount = {
         lazyTime: (source, target, fstype, data) => lib.mounting(source, target, fstype, MountFlags.MS.LAZYTIME, data)
     },
     Umount: {
-        force: (target) => lib.umounting(target),
+        force: (target) => lib.umounting2(target, MountFlags.MNT.FORCE),
         detach: (target) => lib.umounting2(target, MountFlags.MNT.DETACH),
         expire: (target) => lib.umounting2(target, MountFlags.MNT.EXPIRE)
     }
